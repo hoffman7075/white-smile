@@ -1,0 +1,927 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="styles/bootstrap.min.css">
+  <link rel="stylesheet" href="styles/styles.css">
+  <title>White smile</title>
+</head>
+
+<body>
+<!-- Modal -->
+<div class="modal fade" id="feedback" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+      <h3 class="title">
+        Для заказа<br>заполните форму
+      </h3>
+      <form action="#" method="post">
+        <div class="input-arrow">
+          <input type="text" name="name" placeholder="Ваше имя">
+        </div>
+        <div>
+          <input type="text" name="tel" placeholder="Ваше телефон" required>
+        </div>
+        <input type="submit" class="btn btn-zakaz" value="Заказать">
+      </form>
+    </div>
+  </div>
+</div>
+
+
+  <header>
+    <div class="container container1610 nopadding">
+      <div class="logo">
+        <a href="/">
+          <img src="img/logo.png" alt="">
+        </a>
+      </div>
+      <nav class="header-nav">
+        <div class="blue-border">
+        </div>
+        <ul>
+          <li><a href="#banner">Главная</a></li>
+          <li><a href="#about">О технологии</a></li>
+          <li><a href="#how-we-work">Как мы это делаем</a></li>
+          <li><a href="#goods-offers">Цены и продукция</a></li>
+          <li><a href="#reviews">Отзывы</a></li>
+        </ul>
+      </nav>
+      <div class="contacts">
+        <a href="#" class="telephone blue">
+          +7 (495) 000-00-00
+        </a>
+        <a href="javascript:void(0)" class="zakaz black" data-toggle="modal" data-target="#feedback">
+          Заказать звонок
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <section class="banner" id="banner">
+    <div class="container container1610">
+      <h2 class="first-title">
+        Студийное<br>отбеливание на дому
+      </h2>
+      <h2 class="second-title">
+        Косметическое отбеливание зубов там,<br>где удобно вам
+      </h2>
+      <div class="btn btn-zakaz" data-toggle="modal" data-target="#feedback">
+        Заказать
+      </div>
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <div class="container">
+      <h2 class="title">
+        О технологии отбеливания
+      </h2>
+
+      <div class="icons">
+        <div class="row">
+          <div class="col-md-4 col-sm-10 col-xs-6">
+            <div class="icon icon1">
+              <p>
+                Первая в мире технология деликатного экспресс-осветления зубов
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-10 col-xs-6">
+            <div class="icon icon2 down">
+              <p>
+                Не содержит агрессивных элементов, разрушающих эмаль
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-10 col-xs-6">
+            <div class="icon icon3">
+              <p>
+                Одобрено ФГБУ "ЦНИИСиЧЛХ" Министерства здравоохранения РФ
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-4 col-sm-10 col-xs-6">
+            <div class="icon icon4">
+              <p>
+                Не вызывает чувствительность зубов
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-10 col-xs-6">
+            <div class="icon icon5 down">
+              <p>
+                Не требует посещения кабинета стоматолога
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-10 col-xs-6">
+            <div class="icon icon6">
+              <p>
+                Естественное осветление зубов от 3 до 10 тонов
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-4 col-sm-10 col-xs-6">
+            <div class="icon icon7">
+              <p>
+                Не требует анестезии и изоляции десен
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-10 col-xs-6">
+            <div class="icon icon8 down-max">
+              <p>
+                Абсолютно безболезненный и комфортный сеанс
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-10 col-xs-6">
+            <div class="icon icon9">
+              <p>
+                В формуле геля W&S содержатся нано частицы гидроксиапатита кальция - запечатывающие микротрещины эмали
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="recomend">
+        <span>
+          Нас рекомендует к.м.н. Милюкова Дарья Юрьевна
+        </span>
+        <div class="btn btn-recomend" data-toggle="modal" data-target="#feedback">Посмотреть рекомендации</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="how-we-work" id="how-we-work">
+    <img src="img/kapa.png" alt="Капа" class="left-img">
+    <img src="img/vita.png" alt="Шкала Vita" class="right-img">
+    <div class="container">
+      <h2 class="title white">
+        Как мы это делаем
+      </h2>
+
+      <div class="how-we-work-steps">
+        <div class="row">
+          <div class="col-md-4 col-sm-10 col-xs-6">
+            <div class="how-we-work-steps-step step1">
+              <div class="info">
+                <span>01.</span>
+                <p>
+                  Вызови нашего специалиста туда, куда тебе удобно
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-10 col-xs-6">
+            <div class="how-we-work-steps-step step2">
+              <div class="info">
+                <span>02.</span>
+                <p>
+                  Определение исходного тона зубов по шкале Vita
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-10 col-xs-6">
+            <div class="how-we-work-steps-step step3">
+              <div class="info">
+                <span>03.</span>
+                <p>
+                  Вызови нашего специалиста туда, куда тебе удобно
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-offset-2 col-md-4 col-sm-10 col-xs-6">
+            <div class="how-we-work-steps-step step4">
+              <div class="info">
+                <span>04.</span>
+                <p>
+                  Запуск Led системы для активации геля
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-10 col-xs-6">
+            <div class="how-we-work-steps-step step5">
+              <div class="info">
+                <span>05.</span>
+                <p>
+                  Наслаждайся результатом
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="btn btn-zakaz" data-toggle="modal" data-target="#feedback">
+          Заказать
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="advantages" id="advantages">
+    <div class="container">
+      <h2 class="title-arrows">
+      Преимущества
+    </h2>
+
+      <div class="advantages-block">
+        <div class="row">
+          <div class="col-md-2 col-sm-10 col-xs-6">
+            <div class="advantage">
+              <img src="img/advantages-icon1.png" alt="">
+              <p>Эффект<br>экспресс-осветления<br>от 3 до 12 тонов</p>
+            </div>
+          </div>
+          <div class="col-md-2 col-sm-10 col-xs-6">
+            <div class="advantage">
+              <img src="img/advantages-icon2.png" alt="">
+              <p>Без участия<br>стоматолога</p>
+            </div>
+          </div>
+          <div class="col-md-2 col-sm-10 col-xs-6">
+            <div class="advantage">
+              <img src="img/advantages-icon3.png" alt="">
+              <p>Экспресс сеанс<br>за 15 минут</p>
+            </div>
+          </div>
+          <div class="col-md-2 col-sm-10 col-xs-6">
+            <div class="advantage">
+              <img src="img/advantages-icon4.png" alt="">
+              <p>Безопасно,<br>безболезненно<br>и комфортно</p>
+            </div>
+          </div>
+          <div class="col-md-2 col-sm-10 col-xs-6">
+            <div class="advantage">
+              <img src="img/advantages-icon5.png" alt="">
+              <p>Доступная<br>цена</p>
+            </div>
+          </div>
+          <div class="col-md-2 col-sm-10 col-xs-6">
+            <div class="advantage">
+              <img src="img/advantages-icon6.png" alt="">
+              <p>Стойко<br>до 3 месяцев</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="compare" id="compare">
+    <div class="container">
+      <h2 class="title">
+        White&smile в сравнении с другими<br>методами отбеливания зубов
+      </h2>
+
+      <div class="tarffs">
+        <div class="row">
+          <div class="col-md-4 nopadding">
+            <div class="tarif bad">
+              <div class="tarif-title">
+                <span>Стоматология</span>
+              </div>
+              <div class="tarif-content">
+                <img src="img/tarif-bad.png" alt="">
+                <ul>
+                  <li>
+                    Болезненно и неприятно
+                  </li>
+                  <li>
+                    Долго
+                  </li>
+                  <li>
+                    Ослабляет и стирает<br>эмаль зубов
+                  </li>
+                  <li>
+                    Дорого
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 nopadding">
+            <div class="tarif good">
+              <div class="tarif-title">
+                <span><img src="img/logo-white.png" alt=""></span>
+              </div>
+              <div class="tarif-content">
+                <img src="img/tarif-good.png" alt="">
+                <ul>
+                  <li>
+                    Безболезненно, приятно,<br>эффективно
+                  </li>
+                  <li>
+                    Быстро, комфортно,<br>не выходя из дома
+                  </li>
+                  <li>
+                    Безвредно, безопасно для зубов,<br>эмали и здоровья
+                  </li>
+                  <li>
+                    Доступная цена
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 nopadding">
+            <div class="tarif bad">
+              <div class="tarif-title">
+                <span>Системы самостоятельного домашнего отбеливания</span>
+              </div>
+              <div class="tarif-content">
+                <img src="img/tarif-bad.png" alt="">
+                <ul>
+                  <li>
+                    Болезненно и неприятно
+                  </li>
+                  <li>
+                    Долго
+                  </li>
+                  <li>
+                    Ослабляет и стирает<br>эмаль зубов
+                  </li>
+                  <li>
+                    Дорого
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="btn btn-zakaz" data-toggle="modal" data-target="#feedback">
+          Заказать
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="goods-offers" id="goods-offers">
+    <div class="container">
+      <h2 class="title">
+        Цены и продукция
+      </h2>
+
+      <div class="offers">
+        <span class="offers-text">Три варианта экспресс-осветления по системе W&S</span>
+        <div class="row">
+
+          <div class="col-md-4">
+            <div class="offer">
+              <div class="type express">
+                Экспресс
+              </div>
+              <div class="price">
+                <span>от 1 350 руб.</span>
+              </div>
+              <ul>
+                <li class="time">1 сеанс = 15 минут</li>
+                <li class="effect">Эффект осветления 6-8 тонов</li>
+                <li class="stoikost">Стойкость до 2-х месяцев</li>
+              </ul>
+              <div class="btn btn-zakaz" data-toggle="modal" data-target="#feedback">
+                Заказать
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="offer">
+              <div class="type classic">
+                Классик
+              </div>
+              <div class="price">
+                <span>от 2 400 руб.</span>
+              </div>
+              <ul>
+                <li class="time">1 сеанс = 15 минут</li>
+                <li class="effect">Эффект осветления 6-8 тонов</li>
+                <li class="stoikost">Стойкость до 2-х месяцев</li>
+              </ul>
+              <div class="btn btn-zakaz" data-toggle="modal" data-target="#feedback">
+                Заказать
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="offer">
+              <div class="type extra">
+                Экстра
+              </div>
+              <div class="price">
+                <span>от 3 150 руб.</span>
+              </div>
+              <ul>
+                <li class="time">1 сеанс = 15 минут</li>
+                <li class="effect">Эффект осветления 6-8 тонов</li>
+                <li class="stoikost">Стойкость до 2-х месяцев</li>
+              </ul>
+              <div class="btn btn-zakaz" data-toggle="modal" data-target="#feedback">
+                Заказать
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <span class="text-recomend">
+          Для поддержания и усиления эффекта рекомендуется посещать салоны White&Smile не реже 4-х раз в год
+        </span>
+      </div>
+
+      <div class="goods">
+        <div class="row">
+
+          <div class="col-md-4">
+            <div class="good type1">
+              <div class="header">
+                <div class="title-wrapper">
+                  <span class="good-title">
+                  Отбеливающие полоски W&S серии Delicat
+                </span>
+                  <span class="good-subtitle red">
+                  Для чувствительных зубов
+                </span>
+                </div>
+                <div class="good-image">
+                  <img src="img/poloski-delicat.png" alt="">
+                  <div class="good-price">
+                    <small>стоимость</small>
+                    <span>1 780 P</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="content">
+                <span class="gift">
+                  В одной упаковке: 10 штук + 1 в подарок
+                </span>
+
+                <ul>
+                  <li>
+                    <span>Результат отбеливания 2-4 тона за курс</span>
+                  </li>
+                  <li>
+                    <span>Курс рассчитан на 5-11 дней в зависимости от частоты использования</span>
+                  </li>
+                  <li>
+                    <span>Безболезненно и комфортно</span>
+                  </li>
+                  <li>
+                    <span>Видимый результат уже после 3-х применений</span>
+                  </li>
+                  <li>
+                    <span>Стойкий эффект до 2-х месяцев</span>
+                  </li>
+                </ul>
+
+              </div>
+              <div class="btn btn-zakaz" data-toggle="modal" data-target="#feedback">
+                Заказать
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="good type2">
+              <div class="header">
+                <div class="title-wrapper">
+                  <span class="good-title">
+                    Отбеливающая пудра W&S
+                  </span>
+                  <span class="good-subtitle">
+                    Новый взгляд на деликатное отбеливание в домашних условиях
+                  </span>
+                </div>
+                <div class="good-image">
+                  <img src="img/pudra.png" alt="">
+                  <div class="good-price">
+                    <small>стоимость</small>
+                    <span>1 780 P</span>
+                  </div>
+                </div>
+              </div>
+              <div class="content">
+                <ul>
+                  <li>
+                    <span>Мягкий абразив удаляет пигментные пятна
+                    и зубной налёт, предотвращает развитие
+                    зубного камня</span>
+                  </li>
+                  <li>
+                    <span>Активный кислород в форме перкарбоната
+                    натрия осветляет эмаль</span>
+                  </li>
+                  <li>
+                    <span>Доминиканское масло какао защищает
+                    эмаль</span>
+                  </li>
+                  <li>
+                    <span>Аллантоин стимулирует регенерацию
+                    мягких тканей полости рта</span>
+                  </li>
+                  <li>
+                    <span>Прекрасно освежает дыхание</span>
+                  </li>
+                  <li>
+                    <span>Подходит для регулярного использования</span>
+                  </li>
+                </ul>
+
+              </div>
+              <div class="btn btn-zakaz" data-toggle="modal" data-target="#feedback">
+                Заказать
+              </div>
+
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="good type3">
+              <div class="header">
+                <div class="title-wrapper">
+                  <span class="good-title">
+                    Отбеливающая пудра W&S
+                  </span>
+                  <span class="good-subtitle">
+                    Новый взгляд на деликатное отбеливание в домашних условиях
+                  </span>
+                </div>
+                <div class="good-image">
+                  <img src="img/muss.png" alt="">
+                  <div class="good-price">
+                    <small>стоимость</small>
+                    <span>1 780 P</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="content">
+                <ul>
+                  <li>
+                    <span>Нитрат калия снижает чувствительность
+                    зубов</span>
+                  </li>
+                  <li>
+                    <span>Фторид натрия укрепляет зубную эмаль</span>
+                  </li>
+                  <li>
+                    <span>Гиалуроновая кислота защищает десны,
+                    предотвращает пародонтоз</span>
+                  </li>
+                  <li>
+                    <span>Декспантенол способствует регенерации
+                    тканей</span>
+                  </li>
+                  <li>
+                    <span>Аллантоин оказывает
+                    противовоспалительный эффект</span>
+                  </li>
+                </ul>
+
+              </div>
+              <div class="btn btn-zakaz" data-toggle="modal" data-target="#feedback">
+                Заказать
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="good type4">
+              <div class="header">
+                <div class="title-wrapper">
+                  <span class="good-title">
+                  Отбеливающие полоски W&S™ серии Intensive
+                </span>
+                  <span class="good-subtitle red">
+                  для зубов НЕ склонных к чувствительности
+                </span>
+                </div>
+                <div class="good-image">
+                  <img src="img/poloski-intensive.png" alt="">
+                  <div class="good-price">
+                    <small>стоимость</small>
+                    <span>1 780 P</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="content">
+                <span class="gift">
+                  В одной упаковке: 10 штук + 1 в подарок
+                </span>
+
+                <ul>
+                  <li>
+                    <span>Формула глубокого отбеливания</span>
+                  </li>
+                  <li>
+                    <span>Результат отбеливания 3-5 тонов
+                    за курс отбеливания</span>
+                  </li>
+                  <li>
+                    <span>Курс рассчитан на 5-11 дней в зависимости
+                    от частоты использования</span>
+                  </li>
+                  <li>
+                    <span>Безболезненно и комфортно</span>
+                  </li>
+                  <li>
+                    <span>Видимый результат уже после
+                    2-х применений</span>
+                  </li>
+                  <li>
+                    <span>Стойкий эффект до 3-х месяцев</span>
+                  </li>
+                </ul>
+
+              </div>
+              <div class="btn btn-zakaz" data-toggle="modal" data-target="#feedback">
+                Заказать
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="good type5">
+              <div class="header">
+                <div class="title-wrapper">
+                  <span class="good-title">
+                    Отбеливающие полоски Luxury 2 in 1 W&S™
+                  </span>
+                  <span class="good-subtitle red">
+                    комбинация обоих типов полосок
+                  </span>
+                </div>
+                <div class="good-image">
+                  <img src="img/poloski-luxury.png" alt="">
+                  <div class="good-price">
+                    <small>стоимость</small>
+                    <span>1 780 P</span>
+                  </div>
+                </div>
+              </div>
+              <div class="content">
+                <ul>
+                  <li>
+                    <span>Симфония белого и черного -
+                    Гармония деликатного и интенсивного</span>
+                  </li>
+                  <li>
+                    <span>Количество полосок 20 единиц в одной
+                    коробке</span>
+                  </li>
+                  <li>
+                    <span>Отсек слева (10 деликатных полосок)</span>
+                  </li>
+                  <li>
+                    <span>Отсек справа (10 интенсивных полосок)</span>
+                  </li>
+                  <li>
+                    <span>Каждый отсек закрывается на скрытый
+                    магнит, что дает прикольный эффект
+                    защелкивания</span>
+                  </li>
+                </ul>
+
+              </div>
+              <div class="btn btn-zakaz" data-toggle="modal" data-target="#feedback">
+                Заказать
+              </div>
+
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="good type6">
+              <div class="header">
+                <div class="title-wrapper">
+                  <span class="good-title">
+                    Бамбуковая зубная щетка от W&S™
+                  </span>
+                  <span class="good-subtitle">
+                    Medium
+                  </span>
+                </div>
+                <div class="good-image">
+                  <img src="img/Shetki.png" alt="">
+                  <div class="good-price">
+                    <small>стоимость</small>
+                    <span>250 P</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="content">
+                <ul>
+                  <li>
+                    <span>Антибактериальная бамбуковая ручка
+                    создает благоприятную микрофлору, которая
+                    препятствует размножению патогенных
+                    бактерий</span>
+                  </li>
+                  <li>
+                    <span>Сочетание двух видов щетины: угольное
+                    волокно и нейлон — деликатно и эффективно
+                    удаляет зубной налет</span>
+                  </li>
+                  <li>
+                    <span>Эко продукт — биоразлагаемый материал
+                    способствует защите экологии</span>
+                  </li>
+                </ul>
+
+              </div>
+              <div class="btn btn-zakaz" data-toggle="modal" data-target="#feedback">
+                Заказать
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="sertificats" id="sertificats">
+    <div class="container">
+      <h2 class="title white">
+        Сертифицированный продукт
+      </h2>
+
+      <span class="sertificats-text">
+        Продукция white&smile сертифицирована и легализована на территории РФ и СНГ
+      </span>
+
+      <div class="row">
+        <div class="col-md-2">
+          <img src="img/sert-1.png" alt="">
+        </div>
+        <div class="col-md-2 down">
+          <img src="img/sert-2.png" alt="">
+        </div>
+        <div class="col-md-2">
+          <img src="img/sert-3.png" alt="">
+        </div>
+        <div class="col-md-2 down">
+          <img src="img/sert-4.png" alt="">
+        </div>
+        <div class="col-md-2">
+          <img src="img/sert-5.png" alt="">
+        </div>
+        <div class="col-md-2 down">
+          <img src="img/sert-6.png" alt="">
+        </div>
+      </div>
+
+      <span class="sertificats-text-footer">
+        Оригинальный продукт и контроль качества на всех этапах производства -<br>
+залог безопасности клиентов
+      </span>
+
+    </div>
+  </section>
+
+  <section class="reviews" id="reviews">
+    <div class="container">
+      <h2 class="title">
+        Отзывы
+      </h2>
+
+      <div class="row">
+        <div class="col-md-4">
+          <div class="review">
+            <div class="review-image">
+              <img src="img/vlad.png" alt="">
+            </div>
+            <div class="review-text">
+              <span class="review-title">
+                Влад
+              </span>
+              <p>
+                Очень удобно и комфортно, отбелили на дому зубы и зарубились в фифу. Немного робел за боль и результат, но все вышло ОК!
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="review">
+            <div class="review-image">
+              <img src="img/yulya.png" alt="">
+            </div>
+            <div class="review-text">
+              <span class="review-title">
+                Юлия
+              </span>
+              <p>
+                Решила отбелить зубы, слышала о многих методах, этот еще не пробовала. Специалист приехала на дом, все сделала, показала, рассказала. Я очень довольна результатом! В подарок дали красную помаду, чтобы подчеркивать новые зубки)))
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="review">
+            <div class="review-image">
+              <img src="img/anna.png" alt="">
+            </div>
+            <div class="review-text">
+              <span class="review-title">
+                Анна
+              </span>
+              <p>
+                Ребят, это круто. Главное это совсем не больно, чего я больше всего боялась. По сравнению со стоматологией гораздо дешевле и результат не хуже.
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="think-about" id="think-about">
+    <div class="container">
+      <h2 class="title">
+        Все еще думаете?
+      </h2>
+
+      <div class="row">
+        <div class="col-md-4 col-md-offset-1 nopadding">
+          <p>
+            Заполните форму<br>и запишитесь на бесплатную<br>консультацию
+          </p>
+        </div>
+        <div class="col-md-7">
+          <form action="#" method="post">
+            <div class="input-arrow">
+              <img src="img/arrow-red.png" alt="">
+              <input type="text" name="name" placeholder="Ваше имя">
+            </div>
+            <div>
+              <input type="text" name="tel" placeholder="Ваше телефон" required>
+            </div>
+            <input type="submit" class="btn btn-zakaz" value="Заказать">
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container nopadding">
+      <div class="copyright">
+        <p>
+          ООО «Вайт-Смайл» White&Smile, LLC<br>© All Rights Reserved
+        </p>
+      </div>
+      <nav class="footer-nav">
+        <ul>
+          <li><a href="#banner">Главная</a></li>
+          <li><a href="#about">О технологии</a></li>
+          <li><a href="#how-we-work">Как мы это делаем</a></li>
+          <li><a href="#goods-offers">Цены и продукция</a></li>
+          <li><a href="#reviews">Отзывы</a></li>
+        </ul>
+        <a href="" class="politika">
+          Политика конфиденциальности
+        </a>
+      </nav>
+      <div class="contacts">
+        <a href="#" class="telephone white">
+              +7 (495) 000-00-00
+            </a>
+        <a href="javascript:void(0)" class="zakaz white" data-toggle="modal" data-target="#feedback">
+              Заказать звонок
+            </a>
+      </div>
+    </div>
+  </footer>
+
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/scripts.js"></script>
+  <script type="text/javascript" src="http://localhost:35729/livereload.js"></script>
+</body>
+
+</html>
